@@ -65,4 +65,6 @@ return {
       fade_out_duration_ms = 250,
       target = 'CursorColor',
    },
+   -- disable the bell in terminal
+   audible_bell = 'Disabled'
 }
