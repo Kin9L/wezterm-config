@@ -10,6 +10,14 @@ return {
          default_prog = { 'fish', '-l' },
          assume_shell = 'Posix'
       }
+      -- ,
+      -- {
+      --    name = 'my3090',
+      --    remote_address = 'my3090',
+      --    multiplexing = 'WezTerm',
+      --    default_prog = { 'zsh', '-l' },
+      --    assume_shell = 'Posix'
+      -- }
    },
 
    -- ref: https://wezfurlong.org/wezterm/multiplexing.html#unix-domains
